@@ -1,0 +1,33 @@
+/* The container that holds the entire app */
+.App {
+    display: flex;
+    flex-direction: column; /* Stack the header and board vertically */
+    align-items: center; /* Horizontally center the items */
+    height: 100vh; /* Full viewport height */
+    justify-content: space-around; /* Ensure space between header and board */
+    padding-top: 20px; /* Add some top padding to push the header down a bit */
+  }
+  
+  .status {
+    display: flex;
+    flex-direction: column; /* Stack the header and board vertically */
+    align-items: center; /* Horizontally center the items */
+    font-size: x-large;
+  }
+  
+  /* Specific styling for the header to keep it at the top */
+  .App h1 {
+    margin: 0;
+    padding-bottom: 5px; /* Space between the header and board */
+  }
+  
+  /* Ensures the board rows are displayed side by side */
+  .board-row {
+    display: flex;
+  }
+  
+  /* No additional centering needed here */
+  .board {
+    display: inline-block;
+  }
+  
